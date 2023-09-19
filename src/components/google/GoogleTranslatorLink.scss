@@ -1,0 +1,27 @@
+.google-text {
+    display: flex;
+    justify-content: center;
+
+    .google-link {
+        padding-top: 16px;
+        padding-left: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .google-text-link {
+        color: #0b287a;
+        text-decoration: none;
+
+    }
+
+    .google-text-link:hover {
+        color: #0b287a;
+        text-decoration: underline;
+    }
+
+    .google-text-link:active {
+        color: #0b287a;
+        text-decoration: underline;
+    }
+}

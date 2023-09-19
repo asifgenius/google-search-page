@@ -1,0 +1,39 @@
+.search-box-container {
+    justify-content: center;
+    display: flex;
+
+    .search-box-input {
+        width: 530px;
+        height: 41px;
+        border-radius: 50px;
+        padding-left: 37px;
+        border: groove;
+        background-image: url("https://www.google.com/images/searchbox/desktop_searchbox_sprites318_hr.webp");
+        margin-top: 28px;
+        background-repeat: no-repeat;
+        background-size: 27px;
+        background-position-y: 11px;
+        background-position-x: 10px;
+
+    }
+
+    .voice-image {
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        left: unset;
+        right: 480px;
+        top: 204px;
+        cursor: pointer;
+    }
+
+    .search-image {
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        left: unset;
+        right: 437px;
+        top: 204px;
+        cursor: pointer;
+    }
+}

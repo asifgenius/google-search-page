@@ -1,0 +1,25 @@
+.google-custom-button {
+    text-align: center;
+    border: none;
+
+    button {
+        background-color: #f3f3f3;
+        border: none;
+        width: 145px;
+        height: 35px;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 27px;
+    }
+
+    button:hover {
+        background-color: #f3f3f3;
+        border: 1px solid #e0e0e0;
+        width: 145px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,53 @@
+@import '../color';
+.google-header {
+    text-align: right;
+    padding: 13px;
+    padding-right: 22px;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+
+
+    a {
+        padding-left: 17px;
+        text-decoration: none;
+        color: $header-link-color;
+        margin-top: 8px;
+    }
+
+    a:hover {
+        padding-left: 17px;
+        text-decoration: underline;
+        color: $header-link-color;
+        margin-top: 8px;
+    }
+
+    .google-app {
+        height: 25px;
+        width: 25px;
+        margin-left: 17px;
+        margin-top: 8px;
+        margin-right: 17px;
+    }
+
+    .google-app:hover {
+        height: 25px;
+        width: 25px;
+        margin-left: 17px;
+        border-radius: 70px;
+        margin-right: 17px;
+        margin-top: 8px;
+        cursor: pointer;
+        background-color: $google-app-background-color;
+    }
+
+    .sign-in-button {
+        color: $sign-in-button-color;
+        background-color: $sign-in-button-background-color;
+        border: none;
+        border-radius: 4px;
+        height: 36px;
+        width: 98px;
+        cursor: pointer;
+    }
+}
